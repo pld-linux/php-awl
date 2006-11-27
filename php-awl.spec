@@ -8,7 +8,7 @@ Group:		Applications/WWW
 Source0:	http://dl.sourceforge.net/rscds/awl_%{version}.tar.gz
 # Source0-md5:	553836e5638469fb4ab2bee307a53589
 URL:		http://rscds.sourceforge.net/
-Requires:	php-pgsql
+Requires:	php(pgsql)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
