@@ -1,5 +1,5 @@
 Summary:	Andrew's Web Libraries
-Summary(pl):	Andrew's Web Libraries - biblioteki dla aplikacji WWW
+Summary(pl.UTF-8):   Andrew's Web Libraries - biblioteki dla aplikacji WWW
 Name:		php-awl
 Version:	0.9
 Release:	1
@@ -15,7 +15,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Andrew's Web Libraries.
 
-%description -l pl
+%description -l pl.UTF-8
 Andrew's Web Libraries - biblioteki dla aplikacji WWW.
 
 %prep
