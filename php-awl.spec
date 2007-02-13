@@ -1,5 +1,5 @@
 Summary:	Andrew's Web Libraries
-Summary(pl.UTF-8):   Andrew's Web Libraries - biblioteki dla aplikacji WWW
+Summary(pl.UTF-8):	Andrew's Web Libraries - biblioteki dla aplikacji WWW
 Name:		php-awl
 Version:	0.9
 Release:	1
