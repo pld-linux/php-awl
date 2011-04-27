@@ -5,13 +5,13 @@
 Summary:	Andrew's Web Libraries
 Summary(pl.UTF-8):	Andrew's Web Libraries - biblioteki dla aplikacji WWW
 Name:		php-awl
-Version:	0.45
+Version:	0.46
 Release:	1
 License:	GPL v2
 Group:		Applications/WWW
-Source0:	http://downloads.sourceforge.net/project/rscds/awl/%{version}/awl-%{version}.tar.gz
-# Source0-md5:	c3d8e630dae7e247a1a8ac5e2ca2097f
-URL:		http://rscds.sourceforge.net/
+Source0:	http://debian.mcmillan.net.nz/packages/awl/awl-%{version}.tar.gz
+# Source0-md5:	9bb397d48e327f6d5c3ebc350956371d
+URL:		http://davical.org/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-common >= 4:%{php_min_version}
 Requires:	php-date
