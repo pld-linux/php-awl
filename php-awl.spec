@@ -1,5 +1,3 @@
-# TODO:
-# - R: /bin/sh ??? (what pulls that?)
 %include	/usr/lib/rpm/macros.php
 %define		php_min_version 5.1.0
 Summary:	Andrew's Web Libraries
@@ -42,6 +40,7 @@ Andrew's Web Libraries - biblioteki dla aplikacji WWW.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{php_data_dir}/awl
 cp -a inc dba $RPM_BUILD_ROOT%{php_data_dir}/awl
+rm $RPM_BUILD_ROOT%{php_data_dir}/awl/inc/*.in
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -49,4 +48,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README TODO
-%{php_data_dir}/awl
+%dir %{php_data_dir}/awl
+%dir %{php_data_dir}/awl/dba
+%attr(755,root,root) %{php_data_dir}/awl/dba/*.sh
+%{php_data_dir}/awl/dba/*.sql
+%{php_data_dir}/awl/inc
