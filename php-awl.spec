@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		php_min_version 5.1.0
 Summary:	Andrew's Web Libraries
 Summary(pl.UTF-8):	Andrew's Web Libraries - biblioteki dla aplikacji WWW
